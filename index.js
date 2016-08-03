@@ -31,7 +31,7 @@ var methods = {
 
 // TODO: figure out if this is a good idea
 data.forEach(function(prop, index) {
-  methods[prop.code] = data[index];
+  methods[prop.name] = data[index];
 });
 
 module.exports = methods;
